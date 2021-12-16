@@ -18,7 +18,7 @@ public class Arithmetic {
 	}
 
 	public static float square(float num1) {
-		return 10.0f;
+		return num1 * num1;
 	}
 
 	public static float cube(float num1) {
