@@ -1,4 +1,5 @@
 package calc;
+import java.lang.Math;
 
 public class Arithmetic {
 	public static float add(float num1, float num2) {
@@ -26,7 +27,7 @@ public class Arithmetic {
 	}
 
 	public static float power(float num1, float num2) {
-		return 10.0f;
+		return (float) Math.pow(num1, num2);
 	}
 
 	public static float mod(float num1, float num2) {
